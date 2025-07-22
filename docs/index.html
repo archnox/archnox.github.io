@@ -785,59 +785,709 @@
             // Sample CV Data - Replace with your actual data
             $scope.cvData = {
                 personal: {
-                    email: "tech.lead@example.com",
+                    email: "#Private#@#####.com",
                     phone: "+33 6 XX XX XX XX",
-                    location: "Paris, France",
+                    location: "Noisiel, France",
                     linkedin: "linkedin.com/in/techleader",
                     fr: {
-                        name: "Jean Dupont",
-                        title: "Tech Lead C# .NET | Architecture Cloud & Microservices",
-                        summary: "Tech Lead expérimenté avec 8+ années d'expertise en développement .NET, architecture cloud et microservices. Spécialisé dans la transformation digitale, l'UX Design et la sécurité applicative. Passionné par l'innovation technologique et le leadership d'équipe."
+                        name: "Jérôme ZAKAN",
+                        title: "Tech Lead C# .NET Backend | Base de données, Architecture Cloud & Microservices",
+                        summary: "Tech Lead expérimenté avec 20 années d'expertise en développement .NET,base de données Transac SQL et PL/SQL, architecture cloud et microservices. Spécialisé dans la transformation digitale, l'UX Design et la sécurité applicative. Passionné par l'innovation technologique et le leadership d'équipe avec une appetence pour des technologies orienté Frontend commme Blazor ou Angular et les applications mobile."
                     },
                     en: {
-                        name: "Jean Dupont",
-                        title: "Tech Lead C# .NET | Cloud Architecture & Microservices",
-                        summary: "Experienced Tech Lead with 8+ years of expertise in .NET development, cloud architecture, and microservices. Specialized in digital transformation, UX Design, and application security. Passionate about technological innovation and team leadership."
+                        name: "Jerome ZAKAN",
+                        title: "Tech Lead C# .NET Backend | Database, Cloud Architecture & Microservices",
+                        summary: "Experienced Tech Lead with 20 years of expertise in .NET development,Transac SQL and PL/SQL database, cloud architecture, and microservices. Specialized in digital transformation, UX Design, and application security. Passionate about technological innovation and team leadership with appetence for frontend oriented technology like Blazor or Angular and also for mobile applications."
                     }
                 },
                 experience: [
                     {
-                        company: "TechCorp Solutions",
-                        period: "2021 - Present",
-                        technologies: ["C#", "MVC", "SQL Server", "JavaScript", "Bootstrap"],
-                        fr: {
-                            title: "Développeur .NET",
-                            description: "Développement d'applications métier avec architecture MVC. Participation à la conception d'APIs RESTful et optimisation des bases de données."
-                        },
-                        en: {
-                            title: ".NET Developer",
-                            description: "Development of business applications with MVC architecture. Participation in RESTful API design and database optimization."
-                        }
-                    }
+                        company: "TotalEnergies Trading & Shipping – Digital & Delivery IT for Trading (DDIT) Power & Gas",
+                        period: "2023/03 - Present",
+                        projects: [
+                            {
+                                fr: {
+                                    title: "Tech Lead Full Stack C# Angular / Oracle PL*SQL",
+                                    description: "En tant que TechLead, l'application web est une réconciliation entre deux parties prenantes, le Book et la Golden Source : Signal (activité de transport de GNL). 'Signal' fournit : la planification des voyages des navires entre les usines de liquéfaction/regazéification, la communication des instructions aux hommes de terrain et le suivi de l'activité en cours. L'application web permet à l'équipe du front office et à l'équipe du back office de signaler les écarts entre les deux sources et également de mettre à jour la quantité et la date de livraison dans le Book. Demarrage du Project Orchestrade sur le Power",
+                                    details: [
+                                        {value:"Recueillir les exigences fonctionnelles et métier des parties prenantes"},
+                                        {value:"Maintenance et évolution de l'application et des process asynchrone"},
+                                        {value:"Modélisation de la base de données Oracle"},
+                                        {value:"Craftmanship, BDD, TDD, Tests fonctionnels, de non-régression et de performance"},
+                                        {value:"CI / CD Azure Pipeline pour le déploiement"}
+                                    ]
+                                },
+                                en: {
+                                    title: "Tech Lead Full Stack C# Backend / Angular / Oracle PL*SQL",
+                                    description: "The Web app is a Reconciliation between 2 stakeholders, the Book and the LNG Shipping application. The web app allows to front office team and BackOffice team to report discrepancies between the 2 sources then to update Quantity and Delivery Date into the Book.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                               {value:" Gather business and functional requirement from the stakeholders "},
+                                                {value:"Maintenance, Enhancement & Optimization Async process of the application "},
+                                                {value:"Modelling Oracle Database, Optimization Queries & Proc Stock "},
+                                                {value:"Craftmanship, BDD, TDD, Functional, non-regression unit tests and support & Mentoring "},
+                                                {value:"CI / CD Azure Pipeline for Deployment "},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                technologies: ["C# .NET 8", "Angular 13", "Oracle", "Git", "Agile(Scrum)", "SSO OAUTH 2"],                                
+                            },
+                            {
+                                fr: {
+                                    title: "Développeur .NET Senior Winforms PL*SQL",
+                                    description: "Au sein d'une équipe de 3 développeurs, 1 DevOps et 1 Techlead, le Book, le cœur de l'application du système de trading, est un ETRM (Energy Trading & Risk Management) qui fournit un moteur de flux cashflow (calcul de PnL et de position), de deal et de gestion des risques, ainsi que la facturation avec génération de factures. Il est utilisé par les traders pour alimenter le système via des applications externes et par le Middle Office pour gérer le P&L et les risques.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Recueillir les exigences fonctionnelles et métier des parties prenantes"},
+                                                {value:"Maintenance et évolution de l'application"},
+                                                {value:"Mise à jour des & optimisation des requêtes et des procédures stockées Oracle"},
+                                                {value:"Craftmanship, BDD, TDD, Tests fonctionnels, de non-régression"}
+                                            ]
+                                        }
+                                    ]
+                                },
+                                en: {
+                                    title: "Senior .NET Developer Winforms PL*SQL",
+                                    description: "Within a Team of 3 Developers, 1 Devops and 1 Techlead, the Book, the core of the Trading System application, is an ETRM (Energy Trading & Risk Management) which provide cashflow engine (PnL and Position calculation), deal and risk management, billing with invoice generation. Orchestrade project for Power is in progress.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Gather business and functional requirement from the stakeholders"},
+                                                {value:"Maintenance, Enhancement & Optimization of the application"},
+                                                {value:"Modelling Oracle Database, Optimization Queries & Proc Stock"},
+                                                {value:"Functional, non-regression unit tests and support"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                technologies: ["C# .NET 4.6", "Winforms", "Oracle", "TFS", "Agile(Scrum)","Gafana", "Splunk"],
+                                
+                            },                            
+                        ]
+                    },
+                    {
+                        company: "LexisNexis France",
+                        period: "2020/03 - 2023/03",
+                        projects: [
+                            {
+                                fr: {
+                                    title: "Tech Lead Full Stack ASP.Net",
+                                    description: "Au sein d'une équipe de 12 développeurs (3 Lead Dev aux États-Unis, 9 Dev Offshore), l'application Web qui utilise un framework en ASP.Net WebForms nécessite une maintenance et des améliorations rapides jusqu'à son remplacement. L'application, qui fournit des jurisprudences, des articles, des publications, des actualités, des documents judiciaires, est utilisée par plus de 100 000 utilisateurs chaque jour.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Encadrement des développeurs pour travailler en mode Agile, Identification et estimations des taches"},
+                                                {value:"Revue de Code, Respect des Best practices, Test d’intégration, de performances et unitaires"},
+                                                {value:"Mise à jour aux dernières normes de sécurité"},
+                                                {value:"Craftmanship, BDD, TDD, Revue de Code, Respect des Best practices, Test d’intégration, de performances et unitaires"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                en: {
+                                    title: "Tech Lead Full Stack ASP.Net",
+                                    description: "Within a team of 12 developers (3 Dev in US, 9 Dev Offshore), the Website is the flagship product of the French department. The Legacy Webapp is in ASP.Net WebForms, needs maintenance and quick improvement until its replacement. The application provides Case law, articles, publications, news, court documents is used by more than 100 000 Users per day.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Mentoring developers to work with in Agile, Responsible for tasks identification, works effort estimates"},
+                                                {value:"Update to the last Security standards"},
+                                                {value:"Optimization Queries & Proc Stock"},
+                                                {value:"Code reviews, Mentoring, Coding standards, Performance Tests, Non Regression Test and Unit Tests"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                technologies: ["C# .NET 4.8","ASP.Net Webforms","TFS","Antidot(search engine)","Agile(Scrum)","Grafana","SPLUNK","AWS Redshift", "AWS S3 Bucket", "AWS Cloudwatch"],
+                                
+                            },
+                            {
+                                fr: {
+                                    title: "Tech Lead Monitoring Automatization & Transversal Support",
+                                    description: "Au sein d'une équipe de 6 développeurs, l'application Web utilise une architecture de micro-services et est déployée sur AWS. Cette application Web remplacera l'ancienne cette année. Actuellement, les utilisateurs peuvent utiliser deux versions de l'application grâce à un mécanisme de bouton de basculement.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Mise en place de l'accès SSO SAMLv2 pour les clients grand Compte"},
+                                                {value:"Responsable Project de la collecte des métriques (RAP, DORA, Agile, QA) automatique pour DashBoard"},
+                                                {value:"Développement pour les équipes externes (États-Unis, Afrique du Sud, Maroc)"},
+                                                {value:"Intégration des applications du groupe comme certains MFE et App Shell (Frontend Angular, Backend .Net Core)"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                en: {
+                                    title: "Tech Lead Monitoring Automatization & Transversal Support",
+                                    description: "Within a Squad of 6 developers, the Website application use micro services architecture and is deployed into AWS. This Website will replace the previous one this year. Currently the users can use two version of the application through a switch button mechanism.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Setup the SSO SAMLv2 Access for customers"},
+                                                {value:"Project Manager for Metrics Gathering (RAP, DORA, Agile, QA) with automatic process from Dashboard"},
+                                                {value:"Development for External Teams (US, South Africa, Morocco)"},
+                                                {value:"Integrate the applications of the Group like some MFE and App Shell (Frontend Angular, Backend .Net Core)"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                technologies: ["C# .Net 5.0", "ASP.Net WebForms","Datadog", "TFS", "Antidot(search engine)", "Java", "Elastic Search", "SQL", "SSO SAMLv2"],
+                            }
+                        ]
+                    },
+                    {
+                        company: "Société Générale – RESG/GTS/DWS/DVF/VDF",
+                        period: "2018/04 - 2020/03",
+                        projects: [
+                            {
+                                fr: {
+                                    title: "Tech Lead Backend C#.Net / Data Modelling PostgreSQL",
+                                    description: "Au sein d’une équipe de 5 développeurs, projet de mise en place d’une infrastructure basée sur des micro-services et un site web permettant à une équipe de Packageur de recueillir des tickets et de gérer le workflow des demandes jusqu’à la mise à disposition des Package pour les postes de Travail.",
+                                    sections:[
+                                        {
+                                            subtitle : "Modélisation de la Base de Données (inspiré par des plateformes de téléchargement d’application mobile)",
+                                            details:[
+                                                {value:"Recueil des besoins fonctionnels avec les parties prenantes"},
+                                                {value:"Analyse des Cases d’usages fonctionnels en adéquation avec la Vision Produit"},
+                                                {value:"Modélisation Database (Relationnelle et NoSql)"},
+                                                {value:"Architecture Haute Disponibilité pour déploiement Worldwide"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Backend API Technique",
+                                            details:[
+                                                {value:"Conception l’application Backend Web Api Odata (similaire a GraphQL)"},
+                                                {value:"Responsable de l’identification des taches, Mentoring et Tests Unitaires"},
+                                                {value:"Craftsmanship, BDD, TDD, Code reviews, Coding standards"},
+                                                {value:"Migration vers .Net Core 3.0 avec Swagger, versioning and outils de synchronization"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Frontend (Package Manager and Ticket Monitoring)",
+                                            details:[
+                                                {value:"Développement et Maintenance de Api Fonctionnel en C#"},
+                                                {value:"Coordination des Développeurs Angular JS"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                en: {
+                                    title: "Tech Lead Agile Backend .Net Core / Api Rest OData / Data Modelling PostgreSQL",
+                                    description: "Within a team of 5 developers, the DIGITALIZATION project of the Packaging teams workflow and Internal Client Software Platform Ticket. It was  designed as a website with micro services to allow to the Packager team to manage tickets raised by internal users and manage the workflow of requests until the availability of the software Packaged for workstations.",
+                                    sections:[
+                                        {
+                                            subtitle : "Database modelling (Application-Store platforms design)",
+                                            details:[
+                                                {value:"Responsible for gathering business and functional requirement from the stakeholders"},
+                                                {value:"Analyse Business Use Case stakeholders based on the Product Vison"},
+                                                {value:"Modelling Database"},
+                                                {value:"High Availability Architecture for worldwide deployment with NoSQL Database Synchronization"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Backend Technical Web API",
+                                            details:[
+                                                {value:"Design the C#.Net Web API Rest OData application (Similar to GraphQL)"},
+                                                {value:"Responsible for tasks identification, ensuring projects delivered on time with quality and Unit Tests"},
+                                                {value:"Craftsmanship, BDD, TDD, Code reviews, Coding standards"},
+                                                {value:"Migration to .Net Core 3.0 with Swagger, versioning and synchronization tool"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Frontend & API Gateway",
+                                            details:[
+                                                {value:"Worked closely with Angular JS developers to maintain the C# .Net API Gateway"},
+                                                {value:"Provided coding standards"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                technologies: ["C# .NET 4.7", "C# .NET CORE 3.0", "Entity Framework", "PostgreSQL 9.6", "Cassandra", "Web Api Odata v4", "Swagger", "TFS", "GIT", "JIRA", "Agile (Scrum)", "Agile@Scale (Safe)"],
+                                
+                            },
+                        ]
+                    },
+                    {
+                        company: "HSBC GBM – TradedRisk SWD London",
+                        period: "2014/11 - 2018/01",
+                        projects: [
+                            {
+                                fr: {
+                                    title: "Ingénieur d’Etudes et Développements .NET / SQL Server",
+                                    description: "Au sein d’une équipe de 13 personnes (5 Londres, 5 Inde, 2 Paris ,1 Hongkong), projet de Reporting de Risk basé sur une application cliente WPF générant des fichiers Excel, un serveur WCF et un service ETL d’alimentation des flux (Database externe, Cube et fichiers plat). L’application affiche des positions des différents produits financiers en fonction éventuellement des maturités et/ou des devises puis surlignant le risque quand la valeur dépasse les seuils fixés.",
+                                    sections:[
+                                        {
+                                            subtitle : "ETL",
+                                            details:[                                                
+                                                {value:"Ajout de nouveaux flux au workflow existant et Proc Stock"},
+                                                {value:"Modification du comportement du workflow (nouveaux types de flux, traitement par lot)"},
+                                                {value:"Optimisation des workflows les plus lents"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Server WCF",
+                                            details:[                                               
+                                                {value:"Ajout de nouveau TemplateData couplé avec ActivePivot et Proc Stock"},
+                                                {value:"Optimisation et factorisation des process .Net"}, 
+                                                {value:"Optimisation des procédures stockées (Database: 50Go)"},
+                                                {value:"Extension de process de calcul et d’évaluation des positions en .Net"},
+                                                {value:"Sécurité de certain process multi-threader"}, 
+
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "WinForms Standalone Application",
+                                            details:[                                                
+                                                {value:"Ajout d'un nouveau modèle conçu pour Excel"},
+                                                {value:"Création et mise à jour des procédures stockées utilisées pour l'affichage et la configuration des données"},
+                                                {value:"Développement suivant le principe TDD (Test Driven Développement)"},
+                                                {value:"Tests fonctionnels, de non-régression et de performance"},
+                                                {value:"Optimisations régulières pour rendre l'application plus stable et sécurisée"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                en: {
+                                    title: "Lead Software Engineer Agile .NET / SQL Server",
+                                    description: "Within a team of 13 developers (5 London, 5 India, 2 Paris, 1 Hong Kong), the Risk Reporting project was an Excel Add-in which generate Report files. The application displayed the positions of the various financial products depending on the maturities and/or currencies, and then it highlighted the risk when the value exceeded the thresholds.",
+                                    sections:[
+                                        {
+                                            subtitle : "ETL",
+                                            details:[
+                                                {value:"Added new workflows and Stored Procedures"},
+                                                {value:"Changed workflow behavior (new flow types, batch processing)"},
+                                                {value:"Optimization of the slowest workflows"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Server WCF",
+                                            details:[
+                                                {value:"Added new Template coupled with Active Pivot and Stored Procedures"},
+                                                {value:"Optimization and factorization of .Net processes"},
+                                                {value:"Optimization of stored procedures (Database: 50Go)"},
+                                                {value:"Extension of process for calculating and evaluating positions in .Net"},
+                                                {value:"Security of certain multi-threaded processes"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "WinForms Standalone Applicatio",
+                                            details:[
+                                                {value:"Added new Template Designed for Excel"},
+                                                {value:"Created and updated Stored Procedures used for the display and data configuration"},
+                                                {value:"Functional, non-regression and performance tests following the TDD principle"},
+                                                {value:"Regular optimization to make the application more stable and secure"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                technologies: ["C# .NET 4", "LinQ", "Entity Framework 6", "DevExpress", "Web Service", "SQL Server 2008",  "XML", "EXCEL", "JIRA", "SPRING .NET", "SVN" ,"Git", "Agile (Scrum)", "Teamcity","Jenkins", "G3 Deployment"],                                
+                            },
+                        ]
+                    },
+                    {
+                        company: "SGCIB Département ITEC/DPR",
+                        period: "2011/04 - 2014/10",
+                        projects: [
+                            {
+                                fr: {
+                                    title: "Tech Lead Application Monitoring .NET / SQL Server",
+                                    description: "Au sein d’une équipe 4 personnes, projet de sécurisation de la PRODUCTION via des Dashboards de Status des Workflow et suivi de performances",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[                                                
+                                                {value:"Mise à jour de la documentation de support et Transfert de connaissance l’équipe support"},
+                                                {value:"Développement d’un process automatique de reporting de la production"},
+                                                {value:"Développement évolutive d’une application interne de monitoring de la PROD"},
+                                                {value:"Mentoring sur les applications et l’architecture"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                en: {
+                                    title: "Lead Developer Monitoring App .NET / SQL Server",
+                                    description: "Within a team of 4 developers, Project to track and secure the Production using the Dashboard tool of the Group.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Provided Level 1 support documentation with all scenarios"},
+                                                {value:"Mentoring offshore developers, Knowledge Transfer"},
+                                                {value:"Code Development of an automatic production reporting process"},
+                                                {value:"Scalable development of an internal application for monitoring PROD"},
+                                            ]
+                                        },                                        
+                                    ]
+                                },
+                                technologies: ["Oracle 11G", "XML","T-Mon(In House)"],                                
+                            },
+                            {
+                                fr: {
+                                    title: "Tech Lead Agile .Net Migration  SQL Server - Oracle",
+                                    description: "Au sein d’une équipe maximum 20 personnes, un projet de migration de l’application Cobalt SQL Server  vers Oracle dont la livraison s’est terminée début Juin 2014. J’apporte mon expertise pour améliorer la sécurité de l’application sa stabilité. Je contribue à la traduction du moteur SQL SERVER vers Oracle tout en optimisant au maximum le SQL.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[                                                
+                                                {value:"Pré-études, Analyse d’impactes, Evaluation de la demande (macro-chiffrage)"},
+                                                {value:"Architecture technique de la solution répondant à la demande"},
+                                                {value:"Développement et Optimisation des Packages Oracle"},
+                                                {value:"Craftsmanship, BDD, TDD, Tests unitaires, fonctionnels, de non-régression et de performances"},
+                                                {value:"Proposition régulière d’évolution de l’application pour la rendre plus stable et sécurisé"},
+                                                {value:"Participation aux cahiers de tests utilisateurs"},
+                                            ]
+                                        },                                        
+                                    ]
+                                },
+                                en: {
+                                    title: "Lead Developer .Net Migration  SQL Server - Oracle",
+                                    description: "Within a team of up to 20 developers, a database migration project from SQL Server to Oracle delivered in June 2014. I shared my expertise to improve the security of the application and its stability. I contribute to the translation of the SQL Server script to Oracle with the maximum of possible optimization.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Responsible for gathering business and functional requirement from the stakeholders"},
+                                                {value:"Modelling Database, architecture diagrams"},
+                                                {value:"Migration Stock Proc to Oracle Package Stock Proc and optimization"},
+                                                {value:"Responsible for tasks identification, works effort estimates for developers, ensuring projects delivered on time"},
+                                                {value:"Perform code reviews, developing and adhering to coding standards with quality and Unit Tests"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                technologies: ["Oracle 11G", "C# .NET 3.5", "SSIS", "Agile (Scrum)"],
+                            },
+                            {
+                                fr: {
+                                    title: "Référent Technique Agile .NET / SQL Server",
+                                    description: "Au sein d’une équipe de 25 personnes, j’ai la fonction de référent Technique de niveau Expert sur l’application Cobalt et dont j’effectue la maintenance évolutive. Cette application a pour objectif de contrôler l’activité des Traders (en millions de deals par jours sur une Database de 200To). Elle est composée de plusieurs briques métiers (45 briques à ce jour comme : Contrôle de trésorerie, Dépassement de seuils, Modification de deal en différé, Contrôle des congés…)  Le résultat de ces contrôles génère des alertes qui sont envoyés à une application web (Serval) qui se chargera de les afficher aux clients (plusieurs milliers d’utilisateurs) afin de les analyser.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[                                                
+                                                {value:"Spécifications fonctionnelles détaillées de la demande en Anglais"},
+                                                {value:"Architecture technique de la solution répondant à la demande"},
+                                                {value:"Développement des fonctionnalités suivant le principe Craftsmanship, BDD, TDD"},
+                                                {value:"Mentoring sur les applications et l’architecture"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Création du module métier ",
+                                            details:[                                                
+                                                {value:"Création du Workflow qui va orchestrer les taches (Intégration des flux, Enrichissement Database, Control des deals)"},
+                                                {value:"Création du package SSIS (ETL .Net) qui va intégrer l extract CSV dans SQL Server"},
+                                                {value:"Implémentation de toutes les Proc Stock lié à l’enrichissement des données"},
+                                                {value:"Optimisation des Proc Stock SQL Server"},
+                                                {value:"Tests unitaires, fonctionnels, de non-régression et de performances"},
+                                                {value:"Création du Webservices WCF qui va transmettre les données en SOAP à l’application consommatrice du flux"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                en: {
+                                    title: "Lead Developer .NET / SQL Server",
+                                    description: "Within a team of 25 developers, this application tracked and controlled the Traders activities (in 10 million of deals per day on a 200TB Database). The application is born after the Kerviel case. It is split by module which have a single business rule responsibility (currently 50+ modules as: Cash control, Exceeding thresholds control, Deferred deal modification control, Leave control, etc.). The result highlight and generates deals alerts which are sent to a web application (Serval) to be analysed by controllers.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Responsible for gathering business and functional requirement from the stakeholders"},
+                                                {value:"Modelling Database, architecture diagrams"},
+                                                {value:"Responsible for tasks identification, works effort estimates for developers, ensuring projects delivered on time"},
+                                                {value:"Perform code reviews, developing and adhering to coding standards with quality and Unit Tests"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Business Rule Module creation",
+                                            details:[
+                                                {value:"Creation of the SSIS package (ETL .Net) which fill Data Input File into SQL Server"},
+                                                {value:"TDD principle used with Functional, non-regression and performance tests"},
+                                                {value:"Data enrichment through implementation of Stored Procedure with tests and optimization"},
+                                                {value:"WCF Web Service contract creation to expose data through SOAP to Serval Website"},
+                                                {value:"Mentoring every week offshore teams"},
+                                                {value:"Support Level 3"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                technologies: ["C# .NET 3.5", "SSIS", "WCF", "Web Service (SOAP)", "LinQ", "SPRING .NET", "SQL Server 2008", "XML", "EXCEL", "Autosys", "Itrack", "IBM QC 9.2", "HUDSON", "JIRA",  "ClearCase", "Git", "Agile (Scrum)"],
+                            },
+                        ]
+                    },
+                    {
+                        company: "PROCAPITAL",
+                        period: "2010/01 - 2011/02",
+                        projects: [
+                            {
+                                fr: {
+                                    title: "Ingénieur d’Etudes et Développements Perl / C++ / SQL",
+                                    description: "Au sein d’une équipe de 9 personnes, mise en place d’un nouveau B2B dans le processus de la brique espèce. Réalisation d’un mode semi-automatique d’alimentation des chèques dans l’IHM.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Responsable de la collecte des exigences fonctionnelles et métier des parties prenantes"},
+                                                {value:"Développement d'outils Perl pour alimenter la base de données avec le flux de chèques reçus quotidiennement"},
+                                                {value:"Amélioration du site Web PHP pour la gestion du nouveau B2B"},
+                                                {value:"Maintenance de l'outil C++ générant des flux à partir des données"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                en: {
+                                    title: "Software Engineer Perl / C++ / SQL",
+                                    description: "Within a team of 9 developers, implementation of a new B2B in the cash brick process. Realization of a semi-automatic mode for feeding cheques into the HMI",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Responsible for gathering business and functional requirement from the stakeholders"},
+                                                {value:"Development Perl tools for feeding the database with the flow of cheques received daily"},
+                                                {value:"Enhancement Website PHP for the management of the new B2B"},
+                                                {value:"Maintenance of the C++ tool generating flow from data"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                technologies: ["Linux", "Oracle", "C++", "PHP", "Perl", "$Universe", "Crontab"],
+                            },
+                            {
+                                fr: {
+                                    title: "Ingénieur d’Etudes et Développements Perl / Php / SQL",
+                                    description: "Au sein des équipes Middle Back Office, projet d'amélioration de l'application PHP de gestion des ordres OPCVM et Intervention sur l'extracteur valeur (référentiels des valeurs et cours) dont l’objectif est d’enrichir le flux de sorti des positions pour prendre en charge les positions en multidevises",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Responsable de la collecte des exigences fonctionnelles et métier des parties prenantes"},
+                                                {value:"Modélisation Database, des diagrammes d'architecture"},
+                                                {value:"Responsable de l'identification des tâches, des estimations de travail pour les développeurs, en veillant à ce que les projets soient livrés à temps avec qualité, tests unitaires et déploiement"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                en: {
+                                    title: "Software Engineer Perl / Php / SQL",
+                                    description: "Within a team of 9 developers, project to improve the PHP application of OPCVM Management order, enhancement and Maintenance of the position extractor to use the multiple currency positions",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Responsible for gathering business and functional requirement from the stakeholders"},
+                                                {value:"Modelling Database, architecture diagrams"},
+                                                {value:"Responsible for tasks identification, works effort estimates for developers, ensuring projects delivered on time with quality and Unit Tests and Deployment"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                technologies: ["Linux", "Oracle", "Perl", "Php"],
+                            }
+                        ]
+                    },
+                    {
+                        company: "NATIXIS, Département RISK / Econométrie",
+                        period: "2007/07 - 2009/12",
+                        projects: [
+                            {
+                                fr: {
+                                    title: "Ingénieur d’Etudes et Développements JAVA/SQL",
+                                    description: "Au sein de l’équipe Econométrie, composé de 2 développeurs et 2 BA, projet de réalisation d’un outil visualisation graphique et de gestion des données de marché qui impacteront la VaR Monte-Carlo.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Responsable de la collecte des exigences fonctionnelles et métier des parties prenantes"},
+                                                {value:"Modélisation Database, des diagrammes d'architecture"},
+                                                {value:"Responsable de l'identification des tâches, des estimations de travail pour les développeurs, en veillant à ce que les projets soient livrés à temps avec qualité et tests unitaires"},
+                                                {value:"Déploiement"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Outils de synchronisation pour alimenter la base de données à partir des fichiers d'entrée chaque jour",
+                                            details:[                                                
+                                                {value:"Modélisation Database, des diagrammes d'architecture"},
+                                                {value:"Responsable de l'identification des tâches, des estimations de travail pour les développeurs, en veillant à ce que les projets soient livrés à temps avec qualité et tests unitaires"},
+                                                {value:"Optimisation des scripts SQL, optimisation des tables"},
+                                                {value:"Déploiement"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Application d'interface utilisateur en Java Swing",
+                                            details:[
+                                                {value:"Modélisation Database, des diagrammes d'architecture"},
+                                                {value:"Responsable de l'identification des tâches, des estimations de travail pour les développeurs, en veillant à ce que les projets soient livrés à temps avec qualité et tests unitaires"},
+                                                {value:"Présentation de l'application MVP"},
+                                                {value:"Amélioration & optimisation graphique"},
+                                                {value:"Sécurité des données"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                en: {
+                                    title: "Software Engineer JAVA / SQL",
+                                    description: "Within the Econometrics team, project to create a standalone application which display charts and manage the market data that will affect Monte-Carlo VaR.",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Responsible for gathering business and functional requirement from the stakeholders"},
+                                                {value:"Modelling Databas, architecture diagrams"},
+                                                {value:"Responsible for tasks identification, works effort estimates for developers, ensuring projects delivered on time with quality and Unit Tests and Deployment"},
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Synchronisation tools to feed the Database from daily input files",
+                                            details:[
+                                                {value:"Responsible for tasks identification, works effort estimates for developers, with quality and Unit Tests"},
+                                                {value:"SQL Scripts optimization, Table optimization"},
+                                                {value:"Deployment"},           
+                                            ]
+                                        },
+                                        {
+                                            subtitle : "Database Modelling, UI application Java Swing ",
+                                            details:[
+                                                {value:"Modelling Database, architecture diagrams"},
+                                                {value:"Responsible for tasks identification, works effort estimates for developers, ensuring projects delivered on time with quality and Unit Tests"},
+                                                {value:"MVP Application presentation"},
+                                                {value:"Graphical enhancement"},
+                                                {value:"Display optimization"},
+                                                {value:"Data security"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                technologies: ["Linux", "Postgresql 8.3", "Uml", "Perl", "Eclipse", "Java Swing", "Mantis", "Jira", "Ant", "Svn", "Cron"],
+                                
+                            },
+                        ]
+                    },
+                    {
+                        company: "Compagny Projects",
+                        period: "2005/09 - 2023/03",
+                        projects: [
+                            {
+                                fr: {
+                                    title: "Ingénieur d’Etudes et Développements Web (ADEX)",
+                                    description: "Au sein d’une équipe de 3 personnes, mise en place d’un Projet de création intranet OpenSource avec analyse des besoins et installation d’un prototype",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:""},
+                                                {value:"Modélisation Database, des diagrammes d'architecture"},
+                                                {value:"Étude comparative des CMS"},
+                                                {value:"Déploiement de la solution choisie (Joomla)"},
+                                            ]
+                                        },                                        
+                                    ]
+                                },
+                                en: {
+                                    title: "Web Software Engineer",
+                                    description: "Within a team of 3 developers, project to create an Opensouce intranet based on CMS",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Modelling Database, architecture diagrams"},
+                                                {value:"Comparative study of CMS"},
+                                                {value:"Deployment of the chosen solution (Joomla)"},
+                                            ]
+                                        },                                        
+                                    ]
+                                },
+                                technologies: ["Linux", "Apache", "Mysql", "Php3", "Python", "CMS"],
+                            },
+                            {
+                                fr: {
+                                    title: "Ingénieur d’Etudes et Développements .Net (ADEX)",
+                                    description: "Au sein d’une équipe de 3 personnes, Projet d’amélioration des outils RH de recrutement du groupe ADEX",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[                                               
+                                                {value:"Modélisation Database, des diagrammes d'architecture"},
+                                                {value:"Analyse du composant .NET de CRYSTAL REPORTS"},
+                                                {value:"Conception de la brique de publication en VB.NET 1.1"},
+                                            ]
+                                        },
+                                    ]
+                                },
+                                en: {
+                                    title: "Software Engineer .Net",
+                                    description: "Within a team of 3 developers, project to improve recruitment management tools for the ADEX group",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Modelling Database, architecture diagrams"},
+                                                {value:"Analysis of the .NET component of CRYSTAL REPORTS"},
+                                                {value:"Design of the desktop publishing brick in VB.NET 1.1"},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                technologies: ["Vb.Net 1.1", "Crystal Reports", "Sql Server 2003"],
+                            },
+                            {
+                                fr: {
+                                    title: "Ingénieur d’Etudes et Développements PERL (NCR/TeraData)",
+                                    description: "Au sein d’une équipe de 3 personnes, Projet de migration du SI décisionnel d’Informatique Banques Populaires vers la solution NCR / Teradata",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Réalisation de scripts SHELL/Perl transformant la syntaxe des scripts SQL DB2 en SQL TERADATA"},
+                                                {value:"Réalisation de scripts SHELL/Perl comparant les données des tables DB2 et TERADATA"},
+                                            ]
+                                        },                                        
+                                    ]
+                                },
+                                en: {
+                                    title: "Software Engineer Perl / SQL",
+                                    description: "Within a team of 3 developers, Project to migrate the Banque Populaire database from IBM DB2 to NCR / Teradata database solution",
+                                    sections:[
+                                        {
+                                            subtitle : "",
+                                            details:[
+                                                {value:"Development Perl scripts which parse then translate the SQL DB2 scripts into SQL TERADATA scripts"},
+                                                {value:"Development Perl scripts which compare data between DB2 database and TERADATA database"},
+                                            ]
+                                        },                                        
+                                    ]
+                                },
+                                technologies: ["Unix", "Perl", "SQL", "Teradata", "IBM Db2"],
+                            }
+                        ]
+                    },
                 ],
                 skills: [
                     {name: "C#", level: 5},
                     {name: ".NET Core", level: 5},
-                    {name: "ASP.NET", level: 4},
-                    {name: "Angular", level: 4},
-                    {name: "TypeScript", level: 4},
+                    {name: "ASP.NET", level: 5},
+                    {name: "Agile", level: 5},                    
+
                     {name: "SQL Server", level: 4},
-                    {name: "Azure", level: 5},
-                    {name: "Docker", level: 4},
-                    {name: "Kubernetes", level: 3},
-                    {name: "Microservices", level: 5},
-                    {name: "Entity Framework", level: 4},
-                    {name: "Redis", level: 3},
-                    {name: "RabbitMQ", level: 3},
-                    {name: "DevOps", level: 4},
-                    {name: "Git", level: 5},
-                    {name: "SOLID", level: 5},
-                    {name: "DDD", level: 4},
-                    {name: "Clean Architecture", level: 4},
-                    {name: "TDD", level: 3},
-                    {name: "Agile/Scrum", level: 4},
-                    {name: "Leadership", level: 4},
-                    {name: "Mentoring", level: 4}
+                    {name: "Oracle", level: 4},
+                    {name: "PostgreSQL", level: 4},
+                                        
+                    {name: "Git", level: 3},
+                    {name: "Clean Architecture", level: 3},
+                    {name: "SOLID", level: 3},
+                    {name: "Craftmanship", level: 3},                    
+                    {name: "TDD", level: 3},                    
+
+                    {name: "Angular", level: 2},
+                    {name: "TypeScript", level: 2},
+                    
                 ],
                 technicalSkills: [
                     {
@@ -847,64 +1497,64 @@
                             {name: "C#", level: 95},
                             {name: ".NET Core/.NET 5+", level: 90},
                             {name: "ASP.NET MVC/Web API", level: 85},
-                            {name: "Angular", level: 80},
-                            {name: "TypeScript", level: 75}
+                            {name: "Angular", level: 50},
+                            {name: "TypeScript", level: 50}
                         ]
                     },
                     {
                         fr: {name: "Base de Données"},
                         en: {name: "Databases"},
                         skills: [
-                            {name: "SQL Server", level: 85},
-                            {name: "Entity Framework", level: 80},
-                            {name: "Redis", level: 70},
-                            {name: "MongoDB", level: 60}
+                            {name: "SQL Server", level: 95},
+                            {name: "Oracle", level: 90},
+                            {name: "PostgreSQL", level: 95},
+                            {name: "Entity Framework", level: 95},
+                            {name: "Redis", level: 50},
+                            {name: "Cassandra", level: 60}
                         ]
                     },
                     {
                         fr: {name: "Cloud & DevOps"},
                         en: {name: "Cloud & DevOps"},
                         skills: [
-                            {name: "Microsoft Azure", level: 90},
-                            {name: "Docker", level: 85},
-                            {name: "Kubernetes", level: 70},
-                            {name: "Azure DevOps", level: 85},
-                            {name: "GitHub Actions", level: 75}
+                            {name: "Microsoft Azure", level: 60},
+                            {name: "Docker", level: 50},
+                            {name: "Kubernetes", level: 50},
+                            {name: "Azure DevOps", level: 70}                           
                         ]
                     },
                     {
                         fr: {name: "Architecture & Design"},
                         en: {name: "Architecture & Design"},
                         skills: [
-                            {name: "Microservices", level: 90},
+                            {name: "Microservices", level: 80},
                             {name: "Clean Architecture", level: 85},
                             {name: "Domain Driven Design", level: 80},
-                            {name: "CQRS", level: 75},
-                            {name: "Event Sourcing", level: 70}
+                            {name: "CQRS", level: 75}                           
                         ]
                     }
                 ],
                 education: [
                     {
-                        school: "École Supérieure d'Informatique",
-                        year: "2015 - 2017",
-                        fr: {degree: "Master en Ingénierie Logicielle"},
-                        en: {degree: "Master's in Software Engineering"}
+                        school: "Université Pierre et Marie Curie, Paris VI",
+                        year: "2005",
+                        fr: {degree: "Master en Sciences Et Techniques Du Logiciel En Technologie Applicatives "},
+                        en: {degree: "Master (M2) STL TA Computer Science and Application Technology "}
                     },
                     {
-                        school: "Université de Technologie",
-                        year: "2012 - 2015",
-                        fr: {degree: "Licence en Informatique"},
-                        en: {degree: "Bachelor's in Computer Science"}
+                        school: "Université Pierre et Marie Curie, Paris VI",
+                        year: "2004",
+                        fr: {degree: "Maîtrise en informatique Algorithmique Et Programmation "},
+                        en: {degree: "Master (M1) Algorithm and development "}
                     }
                 ],
                 languages: [
-                    {name: "Français", level: "Natif"},
-                    {name: "English", level: "Courant"},
-                    {name: "Español", level: "Intermédiaire"}
+                    {name: "Français", level: "Native"},
+                    {name: "English", level: "Fluent"},
+                    {name: "Polski", level: "Intermediate"}
                 ],
                 certifications: [
-                    {
+                   /* {
                         issuer: "Microsoft",
                         year: "2023",
                         fr: {name: "Azure Solutions Architect Expert"},
@@ -921,10 +1571,10 @@
                         year: "2021",
                         fr: {name: "Certified Scrum Master"},
                         en: {name: "Certified Scrum Master"}
-                    }
+                    }*/
                 ],
                 projects: [
-                    {
+                   /* {
                         technologies: ["C#", ".NET Core", "Angular", "Azure", "Docker"],
                         fr: {
                             title: "Plateforme E-commerce Cloud",
@@ -945,7 +1595,7 @@
                             title: "HR Analytics Dashboard",
                             description: "Modern user interface for HR analytics with interactive visualizations and SSO authentication."
                         }
-                    }
+                    }*/
                 ]
             };
 
